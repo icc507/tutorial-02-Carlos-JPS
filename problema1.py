@@ -22,4 +22,4 @@ for i in range(len(m)):
     if m[i].isnumeric():
         m[i] = int(m[i])
 
-print(t + m + t)
+print(m + t + m)
