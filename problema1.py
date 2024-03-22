@@ -12,8 +12,6 @@
 t = input().split()
 m = input().split()
 
-print(t)
-
 for i in range(len(t)):
     if t[i].isnumeric():
         t[i] = int(t[i])
@@ -22,4 +20,4 @@ for i in range(len(m)):
     if m[i].isnumeric():
         m[i] = int(m[i])
 
-print(m + t + m)
+print(tuple(m + t + m))
